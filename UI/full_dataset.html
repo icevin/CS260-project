@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="blind/lookup.js"></script>
+    <script src="full_logic.js"></script>
+</head>
+
+<body class="zz">
+    <div class="container a">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 id="message">
+                    Vote which one looks better
+                </h1>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <div class="container a">
+        <div class="column">
+            <img id="leftImage" src="blind/5.png" alt="image1">
+        </div>
+        <div class="column">
+            <img id="rightImage" src="blind/2.png" alt="image1">
+        </div>
+    </div>
+
+
+    <div class="container a">
+        <button class="button-9" onclick=left();>
+            Left
+        </button>
+
+        <button class="button-9" onclick=right();>
+            Right
+        </button>
+    </div>
+
+    <div class="container hidden">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 id="results-title">
+                    Results
+                </h1>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <div class="container hidden">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2 id="results-message">
+                    Results
+                </h2>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <div class="container hidden">
+        <div class="column">
+            <img id="results-image" src="blind/5.png" alt="image1">
+        </div>
+    </div>
+
+    <div class="container hidden">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 output" id="results-data">
+                Hello
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -9,6 +9,14 @@ h1{
   text-align: center;
 }
 
+h2{
+  color: #323232;
+  margin-top: 0px;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  text-align: center;
+  font-size: medium;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -30,8 +38,15 @@ img {
                         height:auto;
 }	
 
+.hidden {
+  display: none !important;
+}
 
-
+.output {
+  color:#bebebe;
+  overflow-wrap: break-word;
+  max-width: 500px;
+}
 
 /* <button class="button-9" role="button">Button 9</button> */
 
